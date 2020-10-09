@@ -29,12 +29,11 @@
     }
 
     function getInfoFromGoogleClassRoom() {
-      console.log("I have arrived");
-      var finalResults = getInfoWithAllAnnouncements();
-      finalResults1 = getUserInfo(finalResults);
+      var courseInfo = getInfoWithAllAnnouncements();
+      finalResults = getUserInfo(courseInfo);
 
-      console.log("Final Results are: --------------");
-      console.log(finalResults1);
+      console.log("User Details stored in map with name finalResults: --------------");
+      console.log(finalResults);
       console.log("---------------------------------");
 
     }
@@ -266,6 +265,3 @@
 </script>
 
 </body></html>
-
-
-
