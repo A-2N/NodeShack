@@ -17,6 +17,7 @@
 		<h1 class="headerTitle">Z o o m e r</h1>
 
         <div class = "headerBarDiv">
+            <button class="signIn" onclick="window.location.href='automated_zoom_links/home.php'">Classroom</button>
             <button class="signIn" onclick="window.location.href='settings.php'">Settings</button>
             <button class ="signIn" name="Sign Out" onclick="window.location.href='process/logout.php'">Sign Out</button>
             <button class = "signIn" onclick="getInfoFromGoogleClassRoom();">Get Links</button>
