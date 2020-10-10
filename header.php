@@ -31,7 +31,7 @@
         var lastName = profile.getFamilyName();
         document.getElementById('firstName').value = firstName;
         document.getElementById('lastName').value = lastName;
-
+        //TODO put on main page or else will loop
         document.signup.submit();
     }
     function signOut() {

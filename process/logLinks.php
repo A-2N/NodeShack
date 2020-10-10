@@ -10,6 +10,8 @@
     $firstName = $_POST['firstName'];
     $lastName = $_POST['lastName'];
     $email = $_POST['email'];
+
+
     $sql = "INSERT INTO users (First, email, Last)
                 values('{$firstName}', '{$email}','{$lastName}')";
 
@@ -18,3 +20,4 @@
     }
 
     $conn->close();
+    header("LOCATION:../home.php");

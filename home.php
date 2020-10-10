@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-include("header.php");
+include_once("header.php");
     include 'includes/db_credentials.php';
     $user_id = $_SESSION['id'];
     $sql = "SELECT * FROM classes where user_id='{$user_id}' ORDER BY time DESC";
