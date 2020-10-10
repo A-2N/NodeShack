@@ -13,6 +13,8 @@
     $final = mysqli_fetch_assoc(mysqli_query($conn,$userdata));
     $sql = "SELECT * FROM classes where user_id='{$user_id}' ORDER BY time ASC";
     $results = mysqli_query($conn, $sql);
+    $userResult1 = mysqli_query($conn,$userdata);
+    $userResults = mysqli_fetch_assoc($userResult1);
 ?>
 
 <!DOCTYPE html>
@@ -27,6 +29,7 @@
 
 
     <div class="time" id="welcome">
+        <h2>Hello, <?php echo $userResults['First'];?></h2>
         <h2 id="time">Time: </h2>
         <h2 id="date">Date: </h2>
         <script src="scripts/time.js"></script>
@@ -72,6 +75,10 @@
 
             </tr>
         <?php endwhile;?>
+        <?php
+
+
+        ?>
         </tbody>
 
     </table>

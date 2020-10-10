@@ -6,7 +6,7 @@
 
 </head>
 <body>
-    <form method="post" name="login" id="login" action="process/logLinks.php">
+    <form method="post" name="login" id="login" action="">
         <input type="hidden" name="name" id="name">
         <input type="hidden" name="email" id="email"
         <input type="submit" name="Submit">
@@ -73,7 +73,10 @@
         finalCourseDetailsWithMeetingLinksList.push(value); 
       } 
       console.log("finalCourseDetailsWithMeetingLinksList");  
-      console.log(finalCourseDetailsWithMeetingLinksList);  
+      console.log(finalCourseDetailsWithMeetingLinksList);
+
+
+
     }
 
     // If there's an access token, run API request.
@@ -248,8 +251,8 @@
       var params = {'client_id': YOUR_CLIENT_ID,
       'redirect_uri': YOUR_REDIRECT_URI,
       'scope': 'https://www.googleapis.com/auth/drive.metadata.readonly',
-              //'https://www.googleapis.com/auth/classroom.profile.emails'
-              //],
+              'https://www.googleapis.com/auth/classroom.profile.emails'
+              ],
               'state': 'try_sample_request',
               'include_granted_scopes': 'true',
               'response_type': 'token'};

@@ -1,4 +1,5 @@
 <?php
+
 ?>
 
 <!doctype html>
@@ -16,6 +17,7 @@
     <div class="settings" id="settings">
         <a href="deleteClass.php">Edit/Review Classes</a>
         <a href="createClass.php">Create Class</a>
+        <a href="googleCal.php">Google Cal Integration</a>
     </div>
 </body>
 </html>

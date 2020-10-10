@@ -27,11 +27,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8543ce38-5656-4547-9485-e86c545e2fa6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/zoom.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/zoom.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/process/GetClassRoomLinks.php" beforeDir="false" afterPath="$PROJECT_DIR$/process/GetClassRoomLinks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/showSettings.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/showSettings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/time.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/time.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/settings.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +79,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Zoom\database" />
       <recent name="C:\xampp\htdocs\Zoom" />
     </key>
   </component>
@@ -94,7 +93,7 @@
       <updated>1602284271235</updated>
       <workItem from="1602284272666" duration="18523000" />
       <workItem from="1602304043096" duration="788000" />
-      <workItem from="1602337453268" duration="15508000" />
+      <workItem from="1602337453268" duration="27895000" />
     </task>
     <servers />
   </component>
@@ -130,10 +129,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="597" y="289" key="MultipleFileMergeDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602291385242" />
-    <state x="314" y="443" key="NewPhpFileDialog" timestamp="1602353812983">
+    <state x="314" y="443" key="NewPhpFileDialog" timestamp="1602367691317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="314" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602353812983" />
+    <state x="-1606" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602363661287" />
+    <state x="314" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602367691317" />
     <state x="171" y="170" key="SettingsEditor" timestamp="1602350266692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -150,5 +150,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="158" y="244" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602350050778" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602370557628">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602370557628" />
   </component>
 </project>
