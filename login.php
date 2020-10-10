@@ -8,13 +8,13 @@
 ?>
 <html>
     <h1>Login:</h1>
-    <font color="red"><?php echo $errormsg; ?></font>
+    <span style="color: red; "><?php echo $errormsg; ?></span>
     <form method="post" action="loginlogic.php">
         <label for="email" >Email:</label>
-        <input type=email name="Email" value="<?php $_POST['Email']??''; ?>" />
+        <input type=email name="Email"  " />
         <br />
         <label for="password" >Password:</label>
-        <input type=password name="Password" value="<?php $_POST['Password']??''; ?>" />
+        <input type=password name="Password"  " />
         <br />
         <input type=submit name="Login" value="Login" />  
     </form>

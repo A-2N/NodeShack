@@ -9,7 +9,7 @@
     <meta name="google-signin-client_id" content="531207811184-g1n8qv7apc6ktj3rjlgcs7vq754056nj.apps.googleusercontent.com">
 </head>
 <body>
-<form method="post" name="signup" id="signup" action="process/logLinks.php">
+<<!--form method="post" name="signup" id="signup" action="process/logLinks.php">
     <input type="hidden" name="googleId" id="google">
     <input type="hidden" name="firstName" id="firstName">
     <input type="hidden" name="lastName" id="lastName">
@@ -40,11 +40,11 @@
             console.log('User signed out.');
         });
     }
-</script>
+</script>-->
 	<div class="headerDiv">
 		<h1 class="headerTitle">Z o o m e r</h1>
 		<div class = "headerBarDiv">
-            <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+<!--            <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>-->
             <button class = "signIn" onclick="getInfoFromGoogleClassRoom();">Get Links</button>
 		</div>
 

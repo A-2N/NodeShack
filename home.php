@@ -1,9 +1,16 @@
 <?php
 session_start();
 
-include_once("header.php");
+    //include("header.php");
+    print_r($_SESSION);
     include 'includes/db_credentials.php';
     $user_id = $_SESSION['id'];
+
+    if(!isset($user_id)){
+        $URL="http://localhost:8080/Zoom/signup.php";
+        echo "<script type='text/javascript'>document.location.href='{$URL}';</script>";
+        echo '<META HTTP-EQUIV="refresh" content="0;URL=' . $URL . '">';
+    }
     $sql = "SELECT * FROM classes where user_id='{$user_id}' ORDER BY time DESC";
     $results = mysqli_query($conn, $sql);
     //TODO fix time

@@ -1,6 +1,5 @@
 <?php
     session_start();
-    $_SESSION['id'] = 1;
     $user_id = $_SESSION['id']
 //TODO fix time
 ?>

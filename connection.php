@@ -1,3 +1,9 @@
 <?php
-    $connection = mysqli_connect("localhost", "neel", "test", "a2-n");
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $database_name = "zoom";
+
+    //create connection
+    $conn = mysqli_connect($servername, $username, $password, $database_name);
 ?>

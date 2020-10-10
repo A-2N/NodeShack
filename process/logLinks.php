@@ -20,4 +20,4 @@
     }
 
     $conn->close();
-    header("LOCATION:../home.php");
+    header("LOCATION:../login.php");

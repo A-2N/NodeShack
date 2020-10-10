@@ -21,9 +21,14 @@
   <component name="ChangeListManager">
     <list default="true" id="8543ce38-5656-4547-9485-e86c545e2fa6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/connection.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginlogic.php" beforeDir="false" afterPath="$PROJECT_DIR$/loginlogic.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/process/logLinks.php" beforeDir="false" afterPath="$PROJECT_DIR$/process/logLinks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signuplogic.php" beforeDir="false" afterPath="$PROJECT_DIR$/signuplogic.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +71,8 @@
       <option name="presentableId" value="Default" />
       <updated>1602284271235</updated>
       <workItem from="1602284272666" duration="18523000" />
+      <workItem from="1602304043096" duration="788000" />
+      <workItem from="1602337453268" duration="2896000" />
     </task>
     <servers />
   </component>
@@ -82,6 +89,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="597" y="289" key="MultipleFileMergeDialog" timestamp="1602291385242">
@@ -100,9 +108,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1032" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602295664664" />
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602298977489">
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602304981959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602298977489" />
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602304981959" />
   </component>
 </project>
