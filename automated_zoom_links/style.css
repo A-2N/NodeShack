@@ -1,0 +1,97 @@
+.className {
+	font-size: 25px;
+	font-weight: 300;
+	float: left;
+	padding-left: 20px;
+	margin-top: auto;
+	margin-bottom: auto;
+	height: 100%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	font-family: sans-serif;
+}
+
+.classLink {
+	float: right;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	padding-right: 30px;
+  	color: #56B2FF;
+  	font-size: 15px;
+  	height: 90%;
+}
+
+.classDiv {
+	height: 100px;
+	width: 99%;
+	border-left-style: solid;
+	border-left-color: #88C9FF;
+	border-left-width: 10px;
+	background-color: #E5F3FF;
+	margin-top: 18px;
+}
+
+.headerTitle {
+	margin:0 auto;
+	padding: 0;
+	width:500px;
+	height:100px;
+	font-family: monospace;
+	font-weight: 600;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.headerDiv {
+	width: 100%;
+	background-color: #006BC4;
+	height: 140px;
+}
+
+body {
+	margin:0;
+	padding:0;
+}
+
+.allClassesDiv {
+	margin: 10px;
+	margin-top: 20px;
+}
+
+.headerBarDiv {
+	height: 40px;
+	width: 100%;
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #E8EDF1;
+	border-top-color: #E8EDF1;
+	z-index: 1;
+	background-color: #F2F5F9;
+}
+
+.signIn {
+	border-style: none;
+	background-color: #F2F5F9;
+	color: #006BC4;
+	font-family: sans-serif;
+	float: right;
+	margin-top: auto;
+	margin-bottom: : auto;
+	height: 100%;
+	margin-right: 10px;
+}
+
+#userName {
+	height: 100px;
+	color: #006BC4;
+	font-family: sans-serif;
+	font-size: 20px;
+}
