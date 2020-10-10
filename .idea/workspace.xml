@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8543ce38-5656-4547-9485-e86c545e2fa6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/createClass.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +33,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1if2LiFo5N4uFKol5W32ulhYEyW" />
@@ -65,7 +71,7 @@
       <updated>1602284271235</updated>
       <workItem from="1602284272666" duration="18523000" />
       <workItem from="1602304043096" duration="788000" />
-      <workItem from="1602337453268" duration="8294000" />
+      <workItem from="1602337453268" duration="9230000" />
     </task>
     <servers />
   </component>

@@ -30,7 +30,10 @@ session_start();
 
     <a href="createClass.php">Create Class</a>
 
+    <div class="time">
 
+
+    </div>
 	<div class = "allClassesDiv">
 <!--	<script type="text/javascript">-->
 <!--        var arrayOfClasses = [["English", "https:zoom.us/english"], ["Math", "https:zoom.us/math"], ["Science", "https:zoom.us/science"], ["History", "https://zoom.us/history"]]-->
@@ -66,7 +69,7 @@ session_start();
         <?php while($row=(mysqli_fetch_assoc($results))):?>
             <tr>
                 <td><?php echo $row['class'];?></td>
-                <td><a href="<?php echo $row['link'];?>"></a><?php echo $row['link'];?></td>
+                <td><a href="<?php echo $row['link'];?>"><?php echo $row['link'];?></a></td>
 
             </tr>
         <?php endwhile;?>

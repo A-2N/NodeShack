@@ -9,7 +9,7 @@
     <label for="time">Time: </label>
     <input name="time" id="time" type="time" placeholder="time" >
     <label for="link">Zoom Link</label>
-    <input type="text" id="link" name="zoom link" required>
+    <input type="url" id="link" name="zoom link" required>
     <label for="class">Class Name: </label>
     <input id="class" type="text" name="class" placeholder="class" required>
     <input type="submit" name="Submit" required>
