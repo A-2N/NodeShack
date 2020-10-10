@@ -83,9 +83,7 @@
        <?php
             $sql = "SELECT * FROM cal where user_id='{$user_id}'";
             $results = mysqli_query($conn,$sql);
-            if ($conn ->query($sql) !== TRUE){
-                echo "Error: " . $sql . "<br>" . $conn->error;
-            }
+
         ?>
         <?php while($row=(mysqli_fetch_assoc($results))):?>
 

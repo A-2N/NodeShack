@@ -4,6 +4,10 @@
     {
         $errormsg = 'We could not find a user with that email and password.  Please try again.';
     }
+    if($_GET['error']??'' == "google")
+    {
+        $errormsg = 'Sign in with google using the blue button.';
+    }
 
 ?>
 <html>
@@ -31,10 +35,11 @@
 <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
 <br>
 <form method="post" name="signup" id="signup" action="process/googleLogin.php">
-    <input type="hidden" name="googleId" id="google">
+    <input type="hidden" name="googleId" id="google" value="0">
     <input type="hidden" name="firstName" id="firstName">
     <input type="hidden" name="lastName" id="lastName">
     <input type="hidden" name="email" id="email">
+    <input type="hidden" name="confirm" value="0" id="test"">
     <input type="submit" name="google" value="Sign In with Google" >
 </form>
 <p><a href="signup.php" target="_blank">Or sign up instead</a></p>

@@ -13,6 +13,8 @@ function onSignIn(googleUser) {
     document.getElementById('firstName').value = firstName;
     document.getElementById('lastName').value = lastName;
     document.getElementById('email').value = email;
+    document.getElementsByName('confirm').value = 1;
+
 
     var xhr = new XMLHttpRequest();
     xhr.open('POST', 'https://yourbackend.example.com/tokensignin');
