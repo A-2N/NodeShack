@@ -11,6 +11,8 @@ session_start();
         echo "<script type='text/javascript'>document.location.href='{$URL}';</script>";
         echo '<META HTTP-EQUIV="refresh" content="0;URL=' . $URL . '">';
     }
+    $userdata = "SELECT * FROM users WHERE id='{$user_id}'";
+    $final = mysqli_fetch_assoc(mysqli_query($conn,$userdata));
     $sql = "SELECT * FROM classes where user_id='{$user_id}' ORDER BY time DESC";
     $results = mysqli_query($conn, $sql);
     //TODO fix time
@@ -23,6 +25,7 @@ session_start();
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <a href="deleteClass.php">Edit/Review Classes</a>
 
     <a href="createClass.php">Create Class</a>
@@ -63,7 +66,7 @@ session_start();
         <?php while($row=(mysqli_fetch_assoc($results))):?>
             <tr>
                 <td><?php echo $row['class'];?></td>
-                <td><?php echo $row['link'];?></td>
+                <td><a href="<?php echo $row['link'];?>"></a><?php echo $row['link'];?></td>
 
             </tr>
         <?php endwhile;?>
