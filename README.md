@@ -1,5 +1,8 @@
 # Zoom
 
+## Summary
+This webapp uses SQL, js, and php in order to organize and find zoom classes for online learning and eduaction.
+
 ## How to use js for finding classroom files
 Go to http://localhost:8080/home.php after putting all the files in httdocs of xampp.
 Then click on the sign in button.
