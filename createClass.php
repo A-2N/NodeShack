@@ -1,7 +1,6 @@
 <?php
     session_start();
     $user_id = $_SESSION['id']
-//TODO fix time
 ?>
 
 <form method="post" action="process/createClass.php">

@@ -13,9 +13,8 @@ session_start();
     }
     $userdata = "SELECT * FROM users WHERE id='{$user_id}'";
     $final = mysqli_fetch_assoc(mysqli_query($conn,$userdata));
-    $sql = "SELECT * FROM classes where user_id='{$user_id}' ORDER BY time DESC";
+    $sql = "SELECT * FROM classes where user_id='{$user_id}' ORDER BY time ASC";
     $results = mysqli_query($conn, $sql);
-    //TODO fix time
 ?>
 
 <!DOCTYPE html>
@@ -63,6 +62,7 @@ session_start();
         <tr>
             <th>Class Name</th>
             <th>Link</th>
+            <th>Time</th>
 
         </tr>
 
@@ -73,6 +73,7 @@ session_start();
             <tr>
                 <td><?php echo $row['class'];?></td>
                 <td><a href="<?php echo $row['link'];?>"><?php echo $row['link'];?></a></td>
+                <td><?php echo $row['time'];?></td>
 
             </tr>
         <?php endwhile;?>
