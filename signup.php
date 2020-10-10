@@ -5,7 +5,8 @@
 ?>
 <html>
 <head>
-
+    <link rel="stylesheet" href="login_signup.css" />
+    <title>Sign Up</title>
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <meta name="google-signin-scope" content="profile email">
     <meta name="google-signin-client_id" content="531207811184-g1n8qv7apc6ktj3rjlgcs7vq754056nj.apps.googleusercontent.com">
