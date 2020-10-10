@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8543ce38-5656-4547-9485-e86c545e2fa6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/createClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/createClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +73,7 @@
       <updated>1602284271235</updated>
       <workItem from="1602284272666" duration="18523000" />
       <workItem from="1602304043096" duration="788000" />
-      <workItem from="1602337453268" duration="9230000" />
+      <workItem from="1602337453268" duration="11086000" />
     </task>
     <servers />
   </component>
@@ -91,6 +93,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="93" y="100" width="819" height="847" key="DiffContextDialog" timestamp="1602348929489">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="93" y="100" width="819" height="847" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602348929489" />
     <state x="597" y="289" key="MultipleFileMergeDialog" timestamp="1602291385242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
