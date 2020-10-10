@@ -4,6 +4,8 @@
     $password = "";
     $database_name = "zoom";
 
+    var_dump($_POST);
+    print_r($_POST);
     //create connection
     $conn = mysqli_connect($servername, $username, $password, $database_name);
     $username = $_POST['displayName'];
