@@ -1,11 +1,11 @@
 <?php
-include 'includes/db_credentials.php';
+    include '../includes/db_credentials.php';
     $id = $_GET['id'];
     echo $id;
     $sql = "SELECT * FROM classes WHERE id='{$id}}'";
     $results = mysqli_query($conn,$sql);
     $row = mysqli_fetch_assoc($results);
-    ?>
+?>
 
 <!doctype html>
 <html lang="en">
@@ -17,11 +17,10 @@ include 'includes/db_credentials.php';
     <title>Document</title>
 </head>
 <body>
-    <p>Class Name: <?php echo $row['class']?></p>
-    <p>Class Time: <?php echo $row['time']?></p>
-    <p>Zoom Link: <?php echo $row['link']?></p>
-    <a href="process/deleteClass.php?id=<?php echo $row['id']?>" onclick="return confirm('Do you want to delete this class?')">Delete</a>
-    <a href="process/editclass.php?id=<?php echo $row['id']?>" onclick="return confirm('Do you want to edit this class?')">Edit</a>
+<p>Class Name: <?php echo $row['class']?></p>
+<p>Class Time: <?php echo $row['time']?></p>
+<p>Zoom Link: <?php echo $row['link']?></p>
+
 
 </body>
 </html>
