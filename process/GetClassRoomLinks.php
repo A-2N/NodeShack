@@ -1,6 +1,17 @@
 
 
-<html><head></head><body>
+<html>
+<head>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head><body>
+    <form method="post" name="login" id="login" action="process/logLinks.php">
+        <input type="hidden" name="name" id="name">
+        <input type="hidden" name="email" id="email"
+        <input type="submit" name="Submit">
+    </form>
   <script>
 
 
@@ -40,14 +51,25 @@
 
     function getInfoFromGoogleClassRoom() { 
       var courseInfo = getInfoWithAllAnnouncements(); 
-      finalResults = getUserInfo(courseInfo); 
+      finalResults = getUserInfo(courseInfo);
+        setTimeout(() => console.log(`#${i}`), 1000);
       // console.log("User Details stored in map with name finalResults: --------------");  
       // console.log(finalResults); 
       // console.log("---------------------------------");  
       console.log("finalEmailId: " + finalEmailId); 
-      console.log("finalUserName: " + finalUserName); 
-        
-      for (const [key, value] of courseInfo.entries()) {  
+      console.log("finalUserName: " + finalUserName);
+      document.getElementById('name').value = finalUserName.toString();
+      document.getElementById('email').value = finalEmailId.toString();
+      document.login.submit();//this didn't work trying using ajax
+        setTimeout(() => console.log(`#${i}`), 1000);
+        $.ajax('process/logLinks.php',{postname:finalEmailId,postage: finalUserName},
+        function (){
+
+        }
+        );
+
+
+        for (const [key, value] of courseInfo.entries()) {
         //console.log(key, value);  
         finalCourseDetailsWithMeetingLinksList.push(value); 
       } 
@@ -276,7 +298,6 @@
             //here I take the form and put the value as the var values
             document.getElementById('email').value = email.toString();//sets values
             document.getElementById('displayName').value = username.toString();
-            var form = document.getElementById('form');
             document.form.submit();
 
             resultMap1.set(email, [username, kvMap]); 
