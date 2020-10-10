@@ -2,11 +2,10 @@
 
 <html>
 <head>
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-</head><body>
+</head>
+<body>
     <form method="post" name="login" id="login" action="process/logLinks.php">
         <input type="hidden" name="name" id="name">
         <input type="hidden" name="email" id="email"

@@ -16,23 +16,20 @@
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Zoomer</title>
     <link rel="stylesheet" href="home.css">
 
 </head>
-<body>
+<body id="body">
 
-    <a href="deleteClass.php">Edit/Review Classes</a>
 
-    <a href="createClass.php">Create Class</a>
 
     <div class="time" id="welcome">
         <h2 id="time">Time: </h2>
         <h2 id="date">Date: </h2>
         <script src="scripts/time.js"></script>
-
     </div>
 	<div class = "allClassesDiv">
 <!--	<script type="text/javascript">-->
