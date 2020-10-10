@@ -2,8 +2,7 @@
 session_start();
 
     include("header.php");
-    print_r($_SESSION);
-    include 'includes/db_credentials.php';
+    include('includes/db_credentials.php');
     $user_id = $_SESSION['id'];
 
     if(!isset($user_id)){
