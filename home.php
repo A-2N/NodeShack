@@ -34,15 +34,8 @@ session_start();
     <div class="time" id="welcome">
         <h2 id="time">Time: </h2>
         <h2 id="date">Date: </h2>
+        <script src="scripts/time.js"></script>
 
-        <script>
-            var date = new Date();
-            var now = date.getHours() + ":" + date.getMinutes();
-            var datetime = date.getMonth() + "/" +date.getDate()+"/" +date.getFullYear();
-            console.log(now)
-            document.getElementById("date").innerText = datetime;
-            document.getElementById("time").innerText = now;
-        </script>
     </div>
 	<div class = "allClassesDiv">
 <!--	<script type="text/javascript">-->
