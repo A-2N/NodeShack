@@ -2,6 +2,12 @@
 
 <html><head></head><body>
   <script>
+
+
+    var finalEmailId = "";  
+    var finalUserName = ""; 
+    var finalCourseDetailsWithMeetingLinksList = [];
+
     var userDetails = new Map();
     var courseDetails = new Map();
 
@@ -11,6 +17,7 @@
     //Google will send the auth code to this URL 
     // If we host it publically, we need to change this link here and in google developer console
     var YOUR_REDIRECT_URI = 'http://localhost:8080/Zoom/home.php';
+    //var YOUR_REDIRECT_URI = 'http://localhost:8080/home.php';
     var fragmentString = location.hash.substring(1);
 
     // Parsing info from url after authentication
@@ -26,19 +33,26 @@
     if (Object.keys(params).length > 0) {
       localStorage.setItem('oauth2-test-params', JSON.stringify(params) );
       if (params['state'] && params['state'] == 'try_sample_request') {
+        console.log("User is Authenticated with token: " + params['access_token']);
         getInfoFromGoogleClassRoom();
       }
     }
 
-    function getInfoFromGoogleClassRoom() {
-      console.log("I have arrived");
-      var finalResults = getInfoWithAllAnnouncements();
-      finalResults1 = getUserInfo(finalResults);
-
-      console.log("Final Results are: --------------");
-      console.log(finalResults1);
-      console.log("---------------------------------");
-
+    function getInfoFromGoogleClassRoom() { 
+      var courseInfo = getInfoWithAllAnnouncements(); 
+      finalResults = getUserInfo(courseInfo); 
+      // console.log("User Details stored in map with name finalResults: --------------");  
+      // console.log(finalResults); 
+      // console.log("---------------------------------");  
+      console.log("finalEmailId: " + finalEmailId); 
+      console.log("finalUserName: " + finalUserName); 
+        
+      for (const [key, value] of courseInfo.entries()) {  
+        //console.log(key, value);  
+        finalCourseDetailsWithMeetingLinksList.push(value); 
+      } 
+      console.log("finalCourseDetailsWithMeetingLinksList");  
+      console.log(finalCourseDetailsWithMeetingLinksList);  
     }
 
     // If there's an access token, run API request.
@@ -253,6 +267,12 @@
             var json1 = JSON.parse(data1);
             var username = json1["user"]["displayName"];
             var email = json1["user"]["emailAddress"];
+
+            //add it to the global variable 
+            finalEmailId = email; 
+            finalUserName = username;
+
+
             //here I take the form and put the value as the var values
             document.getElementById('email').value = email.toString();//sets values
             document.getElementById('displayName').value = username.toString();
@@ -271,7 +291,25 @@
       return resultMap1;
     }
 
+     function signOut() { 
+      var xhr = new XMLHttpRequest(); 
+      xhr.open('GET', 'logout.php');  
+      xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');  
+      xhr.onreadystatechange = function(e) {  
+        if (xhr.readyState === 4) { 
+          if (xhr.status === 200) { 
+            window.location = "home.php"; 
+          } else {  
+            alert("Error: " + xhr.statusText);  
+          } 
+        } 
+      } 
+      xhr.send(); 
+      oauth2SignIn(); 
+    }
+
 </script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
 <form name="form" id='form' method="post" action="logLinks.php">
     <input type="hidden" name="email">
     <input type="hidden" name="displayName">
@@ -281,6 +319,3 @@
 <?php
 
 ?>
-
-
-
