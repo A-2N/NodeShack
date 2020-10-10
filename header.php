@@ -1,4 +1,4 @@
-<?php require_once("GetClassRoomLinks.php"); ?>
+<?php require_once("process/GetClassRoomLinks.php"); ?>
 
 <!DOCTYPE html>
 <html>

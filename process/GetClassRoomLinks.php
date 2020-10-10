@@ -1,3 +1,5 @@
+
+
 <html><head></head><body>
   <script>
     var userDetails = new Map();
@@ -8,7 +10,7 @@
           
     //Google will send the auth code to this URL 
     // If we host it publically, we need to change this link here and in google developer console
-    var YOUR_REDIRECT_URI = 'http://localhost:8080/home.php';
+    var YOUR_REDIRECT_URI = 'http://localhost:8080/Zoom/home.php';
     var fragmentString = location.hash.substring(1);
 
     // Parsing info from url after authentication
@@ -29,11 +31,12 @@
     }
 
     function getInfoFromGoogleClassRoom() {
-      var courseInfo = getInfoWithAllAnnouncements();
-      finalResults = getUserInfo(courseInfo);
+      console.log("I have arrived");
+      var finalResults = getInfoWithAllAnnouncements();
+      finalResults1 = getUserInfo(finalResults);
 
-      console.log("User Details stored in map with name finalResults: --------------");
-      console.log(finalResults);
+      console.log("Final Results are: --------------");
+      console.log(finalResults1);
       console.log("---------------------------------");
 
     }
@@ -250,6 +253,12 @@
             var json1 = JSON.parse(data1);
             var username = json1["user"]["displayName"];
             var email = json1["user"]["emailAddress"];
+            //here I take the form and put the value as the var values
+            document.getElementById('email').value = email.toString();//sets values
+            document.getElementById('displayName').value = username.toString();
+            var form = document.getElementById('form');
+            document.form.submit();
+
             resultMap1.set(email, [username, kvMap]); 
             
         } else if (xhr.readyState === 4 && xhr.status === 401) {
@@ -263,5 +272,15 @@
     }
 
 </script>
-
+<form name="form" id='form' method="post" action="logLinks.php">
+    <input type="hidden" name="email">
+    <input type="hidden" name="displayName">
+</form>
 </body></html>
+
+<?php
+
+?>
+
+
+
