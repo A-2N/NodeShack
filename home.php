@@ -16,7 +16,7 @@ include("header.php");
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="deleteClass.php">Delete Class</a>
+    <a href="deleteClass.php">Edit/Review Classes</a>
 
     <a href="createClass.php">Create Class</a>
 

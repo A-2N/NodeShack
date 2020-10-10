@@ -8,6 +8,4 @@
     $sql = "UPDATE classes SET time = '{$time}', link = '{$zoom_link}', class='{$class_name}' where id='{$id}'";
     mysqli_query($conn,$sql);
     $conn->close();
-
-
     header('LOCATION: ../home.php');
