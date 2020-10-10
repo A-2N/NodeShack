@@ -75,10 +75,28 @@
 
             </tr>
         <?php endwhile;?>
-        <?php
-
-
+        <tr>
+            <td>
+                <h3>Calendar Events:</h3>
+            </td>
+        </tr>
+       <?php
+            $sql = "SELECT * FROM cal where user_id='{$user_id}'";
+            $results = mysqli_query($conn,$sql);
+            if ($conn ->query($sql) !== TRUE){
+                echo "Error: " . $sql . "<br>" . $conn->error;
+            }
         ?>
+        <?php while($row=(mysqli_fetch_assoc($results))):?>
+
+            <tr>
+
+            <td><?php echo $row['class'];?></td>
+            <td><a href="<?php echo $row['link'];?>"><?php echo $row['link'];?></a></td>
+            <td><?php echo $row['time'];?></td>
+        </tr>
+        <?php endwhile;?>
+
         </tbody>
 
     </table>
