@@ -1,6 +1,5 @@
 <?php
-session_start();
-
+    session_start();
     include("header.php");
     include('includes/db_credentials.php');
     $user_id = $_SESSION['id'];

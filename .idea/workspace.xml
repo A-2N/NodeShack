@@ -24,7 +24,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8543ce38-5656-4547-9485-e86c545e2fa6" name="Default Changelist" comment="" />
+    <list default="true" id="8543ce38-5656-4547-9485-e86c545e2fa6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +82,7 @@
       <updated>1602284271235</updated>
       <workItem from="1602284272666" duration="18523000" />
       <workItem from="1602304043096" duration="788000" />
-      <workItem from="1602337453268" duration="12441000" />
+      <workItem from="1602337453268" duration="12746000" />
     </task>
     <servers />
   </component>
@@ -100,6 +102,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="94" y="181" key="#Deployment" timestamp="1602351155264">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="94" y="181" key="#Deployment/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602351155264" />
     <state x="249" y="378" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602350131158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
