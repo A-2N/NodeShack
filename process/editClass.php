@@ -1,4 +1,5 @@
 <?php
+    session_start();
     include '../includes/db_credentials.php';
     $id = $_GET['id'];
     echo $id;
@@ -17,6 +18,18 @@
     <title>Document</title>
 </head>
 <body>
+<form method="post" action="sqlEditClass.php">
+    <input type="hidden" name="user" value="<?php echo $id?>" required>
+    <label for="time">Time: </label>
+
+    <input name="time" value="<?php echo $row['time']?>" id="time" type="time" placeholder="time" >
+    <label for="link">Zoom Link</label>
+    <input value="<?php echo $row['link']?>" type="text" id="link" name="zoom link" required>
+    <label for="class">Class Name: </label>
+    <input value="<?php echo $row['class']?>" id="class" type="text" name="class" placeholder="class" required>
+    <input type="submit" name="Submit" required>
+
+</form>
 <p>Class Name: <?php echo $row['class']?></p>
 <p>Class Time: <?php echo $row['time']?></p>
 <p>Zoom Link: <?php echo $row['link']?></p>
