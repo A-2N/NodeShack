@@ -20,15 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8543ce38-5656-4547-9485-e86c545e2fa6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Zoom.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/db_credentials.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/logLinks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/createClass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deleteClass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/process/createClass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/process/deleteClass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/viewClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/process/GetClassRoomLinks.php" beforeDir="false" afterPath="$PROJECT_DIR$/process/GetClassRoomLinks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/db_credentials.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/db_credentials.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +58,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -68,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602284271235</updated>
-      <workItem from="1602284272666" duration="7037000" />
+      <workItem from="1602284272666" duration="12168000" />
     </task>
     <servers />
   </component>
@@ -87,13 +88,25 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="314" y="443" key="NewPhpFileDialog" timestamp="1602284952500">
+    <state x="597" y="289" key="MultipleFileMergeDialog" timestamp="1602291385242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="314" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602284952500" />
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602291375338">
+    <state x="597" y="289" key="MultipleFileMergeDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602291385242" />
+    <state x="314" y="443" key="NewPhpFileDialog" timestamp="1602296419104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602291375338" />
+    <state x="314" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602296419104" />
+    <state x="459" y="195" key="SettingsEditor" timestamp="1602292312370">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="459" y="195" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602292312370" />
+    <state x="1032" y="256" key="Vcs.Push.Dialog.v2" timestamp="1602295664664">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1032" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602295664664" />
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602295661419">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602295661419" />
   </component>
 </project>

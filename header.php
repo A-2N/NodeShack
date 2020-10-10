@@ -40,10 +40,6 @@
 
 
 		</div>
-        <h1>test <span id="myText"></span></h1>
-        <form method="post" name="login" action="process/logLinks.php">
-            <input type="hidden" name="hidde" id="myvalue">
-            <input type="submit" name="Submit">
-        </form>
+
 </body>
 </html>
