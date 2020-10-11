@@ -1,0 +1,13 @@
+body{
+    background-color:#56b2ff;
+    font-family:Calibri;
+}
+#Return{
+    float:right;
+}
+.buttonSettings{
+    padding: 0.45%;
+    font-family: Calibri;
+    background-color: darkblue;
+    color:white;
+}
