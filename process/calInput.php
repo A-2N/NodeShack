@@ -14,5 +14,5 @@ session_start();
     $conn->close();
 
 
-    //header('LOCATION: ../home.php');
+    header('LOCATION: ../home.php');
 
