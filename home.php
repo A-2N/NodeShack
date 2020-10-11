@@ -59,9 +59,9 @@
         <table>
             <thead>
             <tr>
-                <th>Class Name</th>
-                <th>Link</th>
-                <th>Time</th>
+                <td><?php echo $row['class'];?></td>
+                <td><a href="<?php echo $row['link'];?>">Join Meeting</a></td>
+                <td><?php echo $row['time'];?></td>
 
             </tr>
 
