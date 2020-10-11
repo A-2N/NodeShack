@@ -1,9 +1,8 @@
 <?php
-include 'includes/db_credentials.php';
+include 'connection.php';
     $id = $_GET['id'];
-    echo $id;
     $sql = "SELECT * FROM classes WHERE id='{$id}}'";
-    $results = mysqli_query($conn,$sql);
+    $results = mysqli_query($connection,$sql);
     $row = mysqli_fetch_assoc($results);
     ?>
 

@@ -1,32 +1,41 @@
 <?php
 session_start();
 
-include 'includes/db_credentials.php';
+include 'connection.php';
 $user_id = $_SESSION['id'];
 $sql = "SELECT * FROM classes where user_id='{$user_id}' ORDER BY time DESC";
-$results = mysqli_query($conn, $sql);
+$results = mysqli_query($connection, $sql);
 
 ?>
-
-<table>
-    <thead>
-    <tr>
-        <th>Class Name</th>
-        <th>Link</th>
-
-    </tr>
-
-    </thead>
-    <tbody>
-
-    <?php while($row=(mysqli_fetch_assoc($results))):?>
+<head>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" href="settingsPage.css">
+</head>
+<body class="body">
+    <div class="headerDiv1">
+            <h1 class="headerTitle" >Z o o m e r</h1>
+    </div>
+    <button class="buttonSettings" id="Return" onclick="window.location.href='home.php'">Return to Home</button>
+    <table>
+        <thead>
         <tr>
-            <td><?php echo $row['class'];?></td>
-            <td><?php echo $row['link'];?></td>
-            <td><a href="viewClass.php?id=<?php echo $row['id']?>">Details</a></td>
+            <th>Class Name</th>
+            <th>Link</th>
 
         </tr>
-    <?php endwhile;?>
-    </tbody>
 
-</table>
+        </thead>
+        <tbody>
+
+        <?php while($row=(mysqli_fetch_assoc($results))):?>
+            <tr>
+                <td><?php echo $row['class'];?></td>
+                <td><?php echo $row['link'];?></td>
+                <td><a href="viewClass.php?id=<?php echo $row['id']?>">Details</a></td>
+
+            </tr>
+        <?php endwhile;?>
+        </tbody>
+
+    </table>
+    </body>
