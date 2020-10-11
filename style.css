@@ -94,10 +94,18 @@ body {
 
 .container{
 	margin-left:1%;
+	padding-top: 5px;;
 }
 #addClass{
 	margin-left:1%;
 }
 .body{
 	background-color: #56B2FF;
+}
+#welcome{
+	margin-top: 40px;
+}
+
+.time{
+	margin-top: 100px;
 }

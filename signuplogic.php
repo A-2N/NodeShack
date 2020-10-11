@@ -1,5 +1,6 @@
 <?php
-    include'connection.php';
+    include 'connection.php';
+    $Password = $_POST['Password']??'';
     $error = "";
     $FirstName = $_POST['FirstName']??'';
     $LastName = $_POST['LastName']??'';
@@ -25,7 +26,7 @@
             $error.='Please Confirm Your Password.<br />';
         }
         $Existing = "SELECT email FROM `users` WHERE `email` = ".$Email;
-        $result = mysqli_query($connection, $Existing);
+        $result = mysqli_query($conn, $Existing);
         if($result){
             $error.="An account is already associated with that email.  Would you like to log in instead?";
         }
@@ -33,9 +34,9 @@
             echo"There were error(s) in your signup details:<br />".$error;
         }
         else{
-            $hashedpassword=md5(md5($_POST['Password']??''));
-            $query = 'INSERT INTO `users` (`first`, `last`, `email`, `password`) VALUES ("'.$FirstName.'", "'. $LastName.'", "'.$Email. '", "'.$hashedpassword.'")';
-            $result = mysqli_query($connection, $query);
+            //$hashedpassword=md5(md5($_POST['Password']??''));
+            $query = 'INSERT INTO `users` (`first`, `last`, `email`, `password`) VALUES ("'.$FirstName.'", "'. $LastName.'", "'.$Email. '", "'.$Password.'")';
+            $result = mysqli_query($conn, $query);
             echo 'You\'ve been signed up';
         }
     }

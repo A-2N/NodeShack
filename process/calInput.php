@@ -1,5 +1,5 @@
 <?php
-session_start();
+    session_start();
     $user_id = $_POST['user'];
     $text = $_POST['text1'];
     $explode = explode(",",$text);
