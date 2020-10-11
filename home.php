@@ -70,7 +70,7 @@
         <?php while($row=(mysqli_fetch_assoc($results))):?>
             <tr>
                 <td><?php echo $row['class'];?></td>
-                <td><a href="<?php echo $row['link'];?>"><?php echo $row['link'];?></a></td>
+                <td><a href="<?php echo $row['link'];?>">Join Meeting</a></td>
                 <td><?php echo $row['time'];?></td>
 
             </tr>

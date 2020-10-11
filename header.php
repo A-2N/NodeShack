@@ -6,6 +6,7 @@
 
 
 
+
     <link type="text/css" rel="stylesheet" href="style.css">
     <script src="scripts/showSettings.js"></script>
     <script src="https://apis.google.com/js/platform.js" async defer></script>
@@ -20,7 +21,6 @@
             <button class="signIn" onclick="window.location.href='automated_zoom_links/home.php'">Classroom</button>
             <button class="signIn" onclick="window.location.href='settings.php'">Settings</button>
             <button class ="signIn" name="Sign Out" onclick="window.location.href='process/logout.php'">Sign Out</button>
-            <button class = "signIn" onclick="getInfoFromGoogleClassRoom();">Get Links</button>
 		</div>
 
 </body>
