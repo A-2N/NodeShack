@@ -13,7 +13,7 @@
     <meta name="google-signin-client_id" content="531207811184-g1n8qv7apc6ktj3rjlgcs7vq754056nj.apps.googleusercontent.com">
 </head>
 <div class="headerDiv1">
-		<h1 class="headerTitle">Z o o m e r</h1>
+		<h1 class="headerTitle">NodeShack</h1>
 </div>
     <div class="container">
         <h1>Sign Up:</h1>
@@ -81,5 +81,6 @@
                 <input type="hidden" name="email" id="email">
                 <input type="submit" name="google" value="Sign In with Google" >
             </form>
+        <a href="login.php">Login</a>
     </div>    
 </html>

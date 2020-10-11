@@ -2,7 +2,7 @@
 include 'connection.php';
     $id = $_GET['id'];
     $sql = "SELECT * FROM classes WHERE id='{$id}}'";
-    $results = mysqli_query($connection,$sql);
+    $results = mysqli_query($conn,$sql);
     $row = mysqli_fetch_assoc($results);
     ?>
 
@@ -13,7 +13,7 @@ include 'connection.php';
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>NodeShack</title>
 </head>
 <body>
     <p>Class Name: <?php echo $row['class']?></p>

@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Google Calendar Add Class</title>
+    <title>NodeShack</title>
     <meta charset="utf-8" />
 </head>
 <body>

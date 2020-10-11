@@ -10,7 +10,7 @@
 </head>
 <body class="body">
     <div class="headerDiv1">
-            <h1 class="headerTitle" >Z o o m e r</h1>
+            <h1 class="headerTitle" >NodeShack</h1>
     </div>
     <button class="buttonSettings" id="Return" onclick="window.location.href='home.php'">Return to Home</button>
     <form method="post" id="addClass" action="process/createClass.php">

@@ -25,7 +25,20 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8543ce38-5656-4547-9485-e86c545e2fa6" name="Default Changelist" comment="" />
+    <list default="true" id="8543ce38-5656-4547-9485-e86c545e2fa6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/createClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deleteClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/deleteClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/googleCal.php" beforeDir="false" afterPath="$PROJECT_DIR$/googleCal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginlogic.php" beforeDir="false" afterPath="$PROJECT_DIR$/loginlogic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/viewClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/viewClass.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +102,8 @@
       <workItem from="1602304043096" duration="788000" />
       <workItem from="1602337453268" duration="31361000" />
       <workItem from="1602378345125" duration="3100000" />
-      <workItem from="1602385371078" duration="2231000" />
+      <workItem from="1602385371078" duration="4575000" />
+      <workItem from="1602427971711" duration="1435000" />
     </task>
     <servers />
   </component>

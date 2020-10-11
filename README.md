@@ -1,4 +1,4 @@
-# Zoom
+# NodeShack
 
 ## Summary
 This webapp uses SQL, js, and php in order to organize and find zoom classes for online learning and eduaction. It calls the google classroom api to get the classroom data.

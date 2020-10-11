@@ -20,7 +20,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Zoomer</title>
+	<title>NodeShack</title>
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="style.css">
 

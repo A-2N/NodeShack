@@ -4,7 +4,7 @@ session_start();
 include 'connection.php';
 $user_id = $_SESSION['id'];
 $sql = "SELECT * FROM classes where user_id='{$user_id}' ORDER BY time DESC";
-$results = mysqli_query($connection, $sql);
+$results = mysqli_query($conn, $sql);
 
 ?>
 <head>
@@ -13,7 +13,7 @@ $results = mysqli_query($connection, $sql);
 </head>
 <body class="body">
     <div class="headerDiv1">
-            <h1 class="headerTitle" >Z o o m e r</h1>
+            <h1 class="headerTitle" >NodeShack</h1>
     </div>
     <button class="buttonSettings" id="Return" onclick="window.location.href='home.php'">Return to Home</button>
     <table>

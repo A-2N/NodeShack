@@ -14,7 +14,7 @@
 </head>
 <body>
     <div class="headerDiv">
-		<h1 class="headerTitle">Z o o m e r</h1>
+		<h1 class="headerTitle">NodeShack</h1>
     </div>
     <h1>Settings:</h1>
     <div class="settings" id="settings">

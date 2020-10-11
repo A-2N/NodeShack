@@ -15,7 +15,7 @@
 </head>
 <body>
 	<div class="headerDiv">
-		<h1 class="headerTitle">Z o o m e r</h1>
+		<h1 class="headerTitle">NodeShack</h1>
 
         <div class = "headerBarDiv">
             <button class="signIn" onclick="window.location.href='automated_zoom_links/home.php'">Classroom</button>

@@ -16,7 +16,7 @@
     <meta name="google-signin-client_id" content="531207811184-g1n8qv7apc6ktj3rjlgcs7vq754056nj.apps.googleusercontent.com">
 </head>
 <div class="headerDiv1">
-		<h1 class="headerTitle">Z o o m e r</h1>
+		<h1 class="headerTitle">NodeShack</h1>
 </div>
 <script>
     function onSignIn(googleUser) {
@@ -57,10 +57,10 @@
     <span style="color: red; "><?php echo $errormsg; ?></span>
     <form method="post" action="loginlogic.php">
         <label for="email" >Email:</label>
-        <input type=email name="Email"  " />
+        <input type=email name="Email"  />
         <br />
         <label for="password" >Password:</label>
-        <input type=password name="Password"  " />
+        <input type=password name="Password"  />
         <br />
         <input type=submit name="Login" value="Login" />  
     </form>
