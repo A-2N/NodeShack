@@ -10,7 +10,7 @@ print_r($_SESSION);
     <meta charset="utf-8" />
 </head>
 <body>
-
+<h1>Formating guide: {Class Name},{Link},{Time}</h1>
 <!--Add buttons to initiate auth sequence and sign out-->
 <button id="authorize_button" style="display: none;">Authorize</button>
 <button id="signout_button" style="display: none;">Sign Out of Google Cal</button>
